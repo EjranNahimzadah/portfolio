@@ -20,12 +20,12 @@ window.open(url);
 
   project = [
     {
-      img: './assets/icons/myProjects/join.png',
+      img: './assets/icons/myProjects/join3.png',
       name: 'Join',
       skills: 'Angular |  TypeScript |  HTML | CSS',
       text: 'myProjects.joinDescription',
-      gitHub: 'https://github.com/OAhlke1/join',
-      liveTest:'https://join-249.developerakademie.net/board.html',
+      gitHub: 'https://github.com/ejrang/join',
+      liveTest:'https://www.ejran-nahimzadah.com/join/login.html ',
       animation: 'fade-up-right',
     },
     {
@@ -33,13 +33,13 @@ window.open(url);
       name: 'El Pollo Loco',
       skills: 'JavaScript | HTML | CSS',
       text: 'myProjects.elPolloLocoDescription',
-      gitHub: 'https://github.com/ejrang/EL-Pollo-Loco',
-      liveTest:'https://join-249.developerakademie.net/board.html',
+      gitHub: 'https://github.com/ejrang/El-Pollo-Loco',
+      liveTest:'https://www.ejran-nahimzadah.com/El-Pollo-Loco',
       animation: 'fade-up-left',
     },
     {
-      img: './assets/icons/myProjects/elPolloLoco.png',
-      name: 'Pokedex',
+      img: './assets/icons/myProjects/daBubble.svg',
+      name: 'DA Bubble',
       skills: 'JavaScript | HTML |CSS',
       text: 'myProjects.pokedexDescription',
       gitHub: 'https://github.com/ejrang/Testprojekt/tree/main/Pokedex',

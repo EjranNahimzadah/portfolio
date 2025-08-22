@@ -6,6 +6,7 @@
 
     img{
         width: 550px;
+        border-radius: 10px !important;
 
         @media(max-width: 1200px){
             width: 500px;

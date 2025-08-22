@@ -26,7 +26,7 @@
         "myProjects": "Meine Projekte",
         "joinDescription": "Task-Manager inspiriert vom Kanban-System. Erstelle und organisiere Aufgaben mit Drag-and-Drop-Funktionen, weise Benutzer und Kategorien zu",
         "elPolloLocoDescription": "Jump and Run-Spiel basierend auf einem objektorientierten Ansatz. Hilf Pepe, Münzen und Tabasco-Salsa zu finden, um gegen das verrückte Huhn zu kämpfen.",
-        "pokedexDescription": "Der Pokedex ist eine fiktive Datenbank, die Informationen über Pokemon enthält. Die Website bietet eine Suchfunktion, um Pokemon zu finden und ihre Eigenschaften anzuzeigen."
+        "pokedexDescription": "Da Bubble ist ein Slack-Klon, bei dem du Kanäle erstellen, Nachrichten senden und Dateien hochladen kannst. Es handelt sich um eine Echtzeit-Anwendung, die mit Angular und Firebase entwickelt wurde."
     },
     "comment": {
         "h1": "Brauchst du ein Teamplayer?",
