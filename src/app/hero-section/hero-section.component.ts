@@ -15,7 +15,7 @@ export class HeroSectionComponent  implements AfterViewInit {
 
   ngAfterViewInit(): void {
     const titleOptions = {
-      strings: ['FRONTEND DEVELOPER'],
+      strings: ['SYSTEMS ENGINEER'],
       typeSpeed: 40,
       startDelay: 0,
       showCursor: false,

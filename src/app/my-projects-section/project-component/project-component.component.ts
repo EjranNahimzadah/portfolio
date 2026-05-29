@@ -37,14 +37,14 @@ window.open(url);
       liveTest:'https://www.ejran-nahimzadah.com/El-Pollo-Loco',
       animation: 'fade-up-left',
     },
-    {
-      img: './assets/icons/myProjects/daBubble.svg',
-      name: 'DA Bubble',
-      skills: 'JavaScript | HTML |CSS',
-      text: 'myProjects.pokedexDescription',
-      gitHub: 'https://github.com/ejrang/Testprojekt/tree/main/Pokedex',
-      liveTest:'https://join-249.developerakademie.net/board.html',
-      animation: 'fade-up-right',
-    }
+    // {
+    //   img: './assets/icons/myProjects/daBubble.svg',
+    //   name: 'DA Bubble',
+    //   skills: 'JavaScript | HTML |CSS',
+    //   text: 'myProjects.pokedexDescription',
+    //   gitHub: 'https://github.com/ejrang/Testprojekt/tree/main/Pokedex',
+    //   liveTest:'https://join-249.developerakademie.net/board.html',
+    //   animation: 'fade-up-right',
+    // }
   ];
 }

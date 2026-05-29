@@ -5,8 +5,17 @@
     font-style: normal;
   }
 
+.margin-top{
+        margin-top: 10px;
+
+        
+    @media (max-width: 992px) {
+        margin-top: 50px;
+    }
+}
+
 .why-me-section {
-    padding: 115px 50px;
+    padding: 115px 70px;
     display: flex;
     background-color: #120b35;
     align-items: center;

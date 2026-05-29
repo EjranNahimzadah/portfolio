@@ -1,57 +1,73 @@
 <div class="contact-me-section" id="contact">
-    <div class="contact-me-section_infos">
-        <div class="text-container">
-            <div class="flex contactMe " style="align-items: center;">
-        <h2> {{ 'contact.heading' | translate }}</h2>
-        <img src="./assets/icons/contactMe/Arrow.png" alt="" class="arrowDown">
-            </div>
-        <p class="infoText">{{ 'contact.description' | translate }}
-        </p>
-       </div>
-
-       <div class="contact-me-adress">
-       <div class="flex-box">
-            <img src="./assets/icons/contactMe/email.png" alt="">
-            <a  href="mailto:ejran1web.de">Email: ejran1web.de</a>
-       </div>
-
-       <div class="flex-box">
-            <img src="./assets/icons/contactMe/phone.png" alt="">
-            <a href="tel:01764348355"> Tel:0176 4348355</a>
-       </div>
-       </div>
-
-      <!-- <a  href="#header"><img src="./assets/icons/contactMe/arrowTop.png" alt=""></a>  -->
-      <a  href="#hero">
-      <svg class="arrowTop" xmlns="http://www.w3.org/2000/svg" width="22" height="50" viewBox="0 0 22 50" fill="none">
-        <path d="M9.58575 4.9366L2.67354 11.2396C2.29178 11.5877 1.7077 11.5877 1.32595 11.2396L0.810337 10.7694C0.375397 10.3728 0.375397 9.68822 0.810337 9.29161L10.3262 0.61441C10.708 0.266304 11.292 0.266304 11.6738 0.61441L21.1897 9.29161C21.6246 9.68822 21.6246 10.3728 21.1897 10.7694L20.6741 11.2396C20.2923 11.5877 19.7082 11.5877 19.3265 11.2396L12.4142 4.9366L12.4142 49C12.4142 49.5523 11.9665 50 11.4142 50H10.5858C10.0335 50 9.58575 49.5523 9.58575 49L9.58575 4.9366Z" fill="#E15544"/>
-        </svg>
-      </a>
+  <div class="contact-me-section_infos">
+    <div class="text-container">
+      <div class="flex contactMe" style="align-items: center">
+        <h2>{{ "contact.heading" | translate }}</h2>
+        <img
+          src="./assets/icons/contactMe/Arrow.png"
+          alt=""
+          class="arrowDown"
+        />
+      </div>
+      <p class="infoText">{{ "contact.description" | translate }}</p>
     </div>
 
-    <!-- <img src="../../assets/icons/contactMe/arrowTop.png" alt=""> -->
+    <div class="contact-me-adress">
+      <div class="flex-box">
+        <img src="./assets/icons/contactMe/email.png" alt="" />
+        <a href="mailto:kontakt@ejran-nahimzadah.com">Email: ejran1web.de</a>
+      </div>
 
-    <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm" data-aos="fade-up"
-    data-aos-anchor-placement="top-bottom">
-  
+      <div class="flex-box">
+        <img src="./assets/icons/contactMe/phone.png" alt="" />
+        <a href="tel:016094984802"> Tel: 0160 94984802</a>
+      </div>
+    </div>
+
+    <!-- <a  href="#header"><img src="./assets/icons/contactMe/arrowTop.png" alt=""></a>  -->
+    <a href="#hero">
+      <svg
+        class="arrowTop"
+        xmlns="http://www.w3.org/2000/svg"
+        width="22"
+        height="50"
+        viewBox="0 0 22 50"
+        fill="none"
+      >
+        <path
+          d="M9.58575 4.9366L2.67354 11.2396C2.29178 11.5877 1.7077 11.5877 1.32595 11.2396L0.810337 10.7694C0.375397 10.3728 0.375397 9.68822 0.810337 9.29161L10.3262 0.61441C10.708 0.266304 11.292 0.266304 11.6738 0.61441L21.1897 9.29161C21.6246 9.68822 21.6246 10.3728 21.1897 10.7694L20.6741 11.2396C20.2923 11.5877 19.7082 11.5877 19.3265 11.2396L12.4142 4.9366L12.4142 49C12.4142 49.5523 11.9665 50 11.4142 50H10.5858C10.0335 50 9.58575 49.5523 9.58575 49L9.58575 4.9366Z"
+          fill="#E15544"
+        />
+      </svg>
+    </a>
+  </div>
+
+  <!-- <img src="../../assets/icons/contactMe/arrowTop.png" alt=""> -->
+
+  <form
+    (ngSubmit)="onSubmit(contactForm)"
+    #contactForm="ngForm"
+    data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom"
+  >
     <div class="flex contactForm">
       <div class="flex-space">
         <div class="data flex column">
           <input
-          #nameInput="ngModel" 
-          [(ngModel)]="contactData.name"
-          type="text"
-          id="name"
-          name="name"
-          required
-          placeholder="{{ 'contact.placeholderName' | translate }}"
-          (blur)="nameTouched = true"
-        />
-        @if (!nameInput.valid && nameInput.touched) {
-          <span style="color: red;">Please enter your name!</span>
-        }
+            #nameInput="ngModel"
+            [(ngModel)]="contactData.name"
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="{{ 'contact.placeholderName' | translate }}"
+            (blur)="nameTouched = true"
+          />
+          @if (!nameInput.valid && nameInput.touched) {
+          <span style="color: red">Please enter your name!</span>
+          }
         </div>
-  
+
         <div class="data flex column">
           <input
             #email="ngModel"
@@ -69,11 +85,11 @@
             "
           />
           @if (!email.valid && email.touched) {
-            <span style="color: red;">Please enter a valid email!</span>
+          <span style="color: red">Please enter a valid email!</span>
           }
         </div>
       </div>
-  
+
       <div class="message flex column">
         <textarea
           #message="ngModel"
@@ -84,13 +100,13 @@
           minlength="4"
           placeholder="{{ 'contact.placeholderMessage' | translate }}"
         ></textarea>
-  
+
         @if (!message.valid && message.touched) {
-          <span style="color: red;">Please enter a message!</span>
+        <span style="color: red">Please enter a message!</span>
         }
       </div>
     </div>
-  
+
     <div class="consent">
       <div class="flex-box privacy-policy">
         <div class="checkbox-container">
@@ -103,15 +119,20 @@
           />
           <label for="myCheckbox" class="custom-checkbox">✓</label>
         </div>
-  
+
         <p>
-          {{ 'contact.privacy-policy-pretext' | translate }}
-          <a routerLink="/privacy-policy" style="color: #E15544;">{{ 'contact.privacy-policy' | translate }}</a>
-          {{ 'contact.privacy-policy-posttext' | translate }}
+          {{ "contact.privacy-policy-pretext" | translate }}
+          <a routerLink="/privacy-policy" style="color: #e15544">{{
+            "contact.privacy-policy" | translate
+          }}</a>
+          {{ "contact.privacy-policy-posttext" | translate }}
         </p>
       </div>
-  
-      <div class="submit" [ngClass]="{'submitClick': contactForm.valid && privacyPolicy}">
+
+      <div
+        class="submit"
+        [ngClass]="{ submitClick: contactForm.valid && privacyPolicy }"
+      >
         <input
           type="submit"
           [disabled]="!contactForm.valid || !privacyPolicy"
@@ -121,20 +142,21 @@
     </div>
 
     <div *ngIf="emailSubmitted" class="notification" data-aos="fade-in">
-      <p>{{ 'contact.successMessage' | translate }}</p>
+      <p>{{ "contact.successMessage" | translate }}</p>
     </div>
   </form>
-  
 
-    <div class="contact-me-adress-mobile d-none">
-        <div class="flex-box" href="mailto:ejran1web.de">
-             <img src="./assets/icons/contactMe/email.png" alt="">
-             <a href="mailto:ejran1web.de">ejran1web.de</a>
-        </div>
- 
-        <div class="flex-box">
-             <img src="./assets/icons/contactMe/phone.png" alt="">
-             <a href="tel:01764348355">0176 4348355</a>
-        </div>
-        </div>   
+  <div class="contact-me-adress-mobile d-none">
+    <div class="flex-box">
+      <img src="./assets/icons/contactMe/email.png" alt="E-Mail" />
+      <a href="mailto:kontakt@ejran-nahimzadah.com">
+        kontakt&#64;ejran-nahimzadah.com
+      </a>
+    </div>
+
+    <div class="flex-box">
+      <img src="./assets/icons/contactMe/phone.png" alt="Telefon" />
+      <a href="tel:+4916094984802"> 0160 94984802 </a>
+    </div>
+  </div>
 </div>

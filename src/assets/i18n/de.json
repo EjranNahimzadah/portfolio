@@ -9,10 +9,10 @@
         "contact": "Kontaktiere mich",
         "whyMe": "Warum ich",
         "text": "Über mich",
-        "projects": "Ich bin ein engagierter und talentierter Entwickler mit einer Leidenschaft für Technologie und Innovation. Ich bringe kreative Lösungen und ein hohes Maß an Professionalität in jedes Projekt ein. Meine Fähigkeit, komplexe Probleme zu lösen und mich schnell an neue Technologien anzupassen, macht mich zu einem wertvollen Mitglied in jedem Team.",
+        "projects": "Ich bin ein motivierter Informatiker mit großem Interesse an IT-Systemen, Netzwerktechnik und modernen Technologien. Ich arbeite zuverlässig, strukturiert und finde mich schnell in neue Systeme und Aufgabenbereiche ein. Besonders gerne beschäftige ich mich mit der Einrichtung, Verwaltung und Optimierung von IT-Infrastrukturen sowie der Lösung technischer Probleme.",
         "IAm": "Ich bin",
         "location": " Korschenbroich",
-        "locatetIn":"Wohnhaft in",
+        "locatedIn": "Wohnhaft in",
         "telocation": "telocation",
         "openTo": "offen für",
         "remote": "remote Arbeit",
@@ -24,20 +24,20 @@
     },
     "myProjects": {
         "myProjects": "Meine Projekte",
-        "joinDescription": "Task-Manager inspiriert vom Kanban-System. Erstelle und organisiere Aufgaben mit Drag-and-Drop-Funktionen, weise Benutzer und Kategorien zu",
+        "joinDescription": "Task-Manager inspiriert vom Kanban-System. Erstelle und organisiere Aufgaben mit Drag-and-Drop-Funktionen, weise Benutzer und Kategorien zu.",
         "elPolloLocoDescription": "Jump and Run-Spiel basierend auf einem objektorientierten Ansatz. Hilf Pepe, Münzen und Tabasco-Salsa zu finden, um gegen das verrückte Huhn zu kämpfen.",
         "pokedexDescription": "Da Bubble ist ein Slack-Klon, bei dem du Kanäle erstellen, Nachrichten senden und Dateien hochladen kannst. Es handelt sich um eine Echtzeit-Anwendung, die mit Angular und Firebase entwickelt wurde."
     },
     "comment": {
-        "h1": "Brauchst du ein Teamplayer?",
-        "span":"Hier was meinne Kollegen über mich sagen", 
+        "h1": "Brauchen Sie einen Teamplayer?",
+        "span":"Das sagen Kollegen über mich:", 
         "commentNoah": "Ejran ist ein talentierter Entwickler mit einem scharfen Auge für Details. Er hat mir im Teamprojeckt geholfen, ich könnte nicht zufriedener sein.",
         "commentEveln": "Es hat sehr viel Spaß gemacht, mit Ejran an unserem Join zu arbeiten. Er hat immer gute Ideen und ist sehr hilfsbereit.",
         "commentJames": "Lösungsorientiert und immer bereit, neue Herausforderungen anzunehmen. Ejran ist ein wertvolles Mitglied unseres Teams."
     },
     "contact": {
         "heading": "Kontakt",
-        "description": "Wenn du Fragen oder mit mir in Kontakt kommen möchtst, fülle bitte das Formular aus.",
+        "description": "Wenn Sie Fragen haben oder mich kontaktieren möchten, bitte ich Sie das Formular auszufüllen. Ich werde mich zeitnah melden.",
         "placeholderName":"Dein Name",
         "placeholderEmail":"Deine E-Mail",
         "placeholderMessage":"Deine Nachicht",
